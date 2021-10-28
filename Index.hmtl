@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CSS FLags Assignment</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+
+	<body>
+		<h1 class="title"> CSS COUNTRY FLAGS</h1>
+		
+		<div class="france-flag">
+			<div class="color-one"></div>
+			<div class="color-two"></div>
+		</div>
+
+		<div class="germany-flag">
+			<div class="color-one1"></div>
+			<div class="color-two2"></div>
+			<div class="color-three3"></div>
+		</div>
+	
+	</body>
+
+</html>

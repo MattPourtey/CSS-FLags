@@ -1,0 +1,53 @@
+ 
+  .title {
+   color:Black;
+   position:0 ;
+   left: 600px;
+   top: 5px;
+ }
+ 
+ /* Frances Flag */
+ /*.france-flag {
+    background-color:#002495;
+    height: 200px;
+    width: 125px;
+ }
+
+  .color-one {
+   background-color: #ED2938;
+   height: 200px;
+   width: 125px;
+   position: absolute;
+   left: 200px;
+   right: 0
+ }
+
+ .color-two { 
+   background-color: white;
+   height: 200px;
+   width: 125x;
+  
+ }
+ */
+
+ /* Germany Flag */
+
+.color-one1 {
+  background-color: red;
+  height:300px;
+  width: 500px;
+  display: inline-block;
+}
+.color-two2 {
+  background-color: yellow;
+  height:200px;
+  width: 500px;
+  display: inline-block ;
+}
+.color-three3 {
+  background-color: black;
+  height:200px;
+  width: 500px;
+  display: inline-block;
+
+}

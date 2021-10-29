@@ -1,53 +1,27 @@
- 
-  .title {
-   color:Black;
-   position:0 ;
-   left: 600px;
-   top: 5px;
- }
- 
- /* Frances Flag */
- /*.france-flag {
-    background-color:#002495;
-    height: 200px;
-    width: 125px;
- }
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CSS Flags Assignment</title>
+		<link rel="stylesheet" href="Styles_2.css">
+	</head>
 
-  .color-one {
-   background-color: #ED2938;
-   height: 200px;
-   width: 125px;
-   position: absolute;
-   left: 200px;
-   right: 0
- }
+	<body>
+		<h1 class="title"> CSS COUNTRY FLAGS</h1>
+		
+        
+        <div id="flex-container">
+            <div>box1</div>
+            <div>box2</div>
+            <div>box3</div>
+        </div>
 
- .color-two { 
-   background-color: white;
-   height: 200px;
-   width: 125x;
-  
- }
- */
+        <div id="flex-container-french">
+            <div>box1</div>
+            <div>box2</div>
+            <div>box3</div>
+        </div>
+	
+	
+	</body>
 
- /* Germany Flag */
-
-.color-one1 {
-  background-color: red;
-  height:300px;
-  width: 500px;
-  display: inline-block;
-}
-.color-two2 {
-  background-color: yellow;
-  height:200px;
-  width: 500px;
-  display: inline-block ;
-}
-.color-three3 {
-  background-color: black;
-  height:200px;
-  width: 500px;
-  display: inline-block;
-
-}
+</html>

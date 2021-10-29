@@ -1,27 +1,66 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>CSS Flags Assignment</title>
-		<link rel="stylesheet" href="Styles_2.css">
-	</head>
+#flex-container-french {
+    border: 1px  black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
 
-	<body>
-		<h1 class="title"> CSS COUNTRY FLAGS</h1>
-		
-        
-        <div id="flex-container">
-            <div>box1</div>
-            <div>box2</div>
-            <div>box3</div>
-        </div>
+#flex-container > div:nth-child(1){
+    background-color: red;
+    height: 50px;
+    width: 200px;
+    margin: 0 0px;
+}
 
-        <div id="flex-container-french">
-            <div>box1</div>
-            <div>box2</div>
-            <div>box3</div>
-        </div>
-	
-	
-	</body>
+#flex-container > div:nth-child(2){
+    background-color: yellow;
+    height: 50px;
+    width:200px;
+    margin: 0 0px;
+}
 
-</html>
+#flex-container > div:nth-child(3){
+    background-color: black;
+    height: 50px;
+    width:200px;
+   
+    margin: 0 0px 50px;
+
+}
+
+
+
+ /* Frnch Flag */
+
+ #flex-container-frecnh {
+    border: 1px  black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+#flex-container-french > div:nth-child(1){
+    background-color: red;
+    height: 50px;
+    width: 200px;
+    margin: 0 0px 0px;
+}
+
+#flex-container-french > div:nth-child(2){
+    background-color: yellow;
+    height: 50px;
+    width:200px;
+    margin: 0 0px;
+}
+
+#flex-container-french > div:nth-child(3){
+    background-color: black;
+    height: 50px;
+    width:200px;
+   
+    margin: 0 0px;
+
+}
+  

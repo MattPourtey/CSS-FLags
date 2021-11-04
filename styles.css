@@ -1,66 +1,97 @@
-#flex-container-french {
-    border: 1px  black;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-start;
+/* Genrmany Flag */
+#flex-container-germany {
+  border: 1px  black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
 }
 
-#flex-container > div:nth-child(1){
-    background-color: red;
-    height: 50px;
-    width: 200px;
-    margin: 0 0px;
+#flex-container-germany > div:nth-child(1){
+  background-color: black;
+  height: 50px;
+  width: 200px;
+  margin: 0 0px;
 }
 
-#flex-container > div:nth-child(2){
-    background-color: yellow;
-    height: 50px;
-    width:200px;
-    margin: 0 0px;
+#flex-container-germany > div:nth-child(2){
+  background-color: red;
+  height:50px;
+  width:200px;
+  margin: 0 0px;
 }
 
-#flex-container > div:nth-child(3){
-    background-color: black;
-    height: 50px;
-    width:200px;
-   
-    margin: 0 0px 50px;
+#flex-container-germany > div:nth-child(3){
+  background-color: yellow;
+  height: 50px;
+  width:200px;
+  margin: 0 0px 50px;
 
 }
 
 
 
- /* Frnch Flag */
-
- #flex-container-frecnh {
-    border: 1px  black;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-start;
+/* French Flag */
+#flex-container-france {
+  border: 1px  black;
+  display: flex;
+  flex-direction: row ;
+  align-items: flex-start;
 }
 
-#flex-container-french > div:nth-child(1){
-    background-color: red;
-    height: 50px;
-    width: 200px;
-    margin: 0 0px 0px;
+#flex-container-france > div:nth-child(1){
+  background-color:blue;
+  height: 200px;
+  width: 100px;
+  margin: 0 0px 0px;
 }
 
-#flex-container-french > div:nth-child(2){
-    background-color: yellow;
-    height: 50px;
-    width:200px;
-    margin: 0 0px;
+#flex-container-france > div:nth-child(2){
+  background-color: white;
+  height: 200px;
+  width: 100px;
+  margin: 0 0px;
 }
 
-#flex-container-french > div:nth-child(3){
-    background-color: black;
-    height: 50px;
-    width:200px;
-   
-    margin: 0 0px;
+#flex-container-france > div:nth-child(3){
+  background-color: red;
+  height: 200px;
+  width:100px;
+  margin: 0 0px;
 
 }
-  
+
+
+/* Flag Madagascar */
+#flex-container-madagascar {
+  border: 1px  black;
+  display: flex;
+  flex-direction: column ;
+  align-items: flex-start;
+}
+
+#flex-container-madagascar > div:nth-child(1){
+  background-color: white;
+  height: 200px;
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+  margin:  0px 0px;
+}
+
+#flex-container-madagascar > div:nth-child(2){
+  background-color: green;
+  height: 200px;
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 0px;
+}
+
+#flex-container-madagascar > div:nth-child(3){
+  background-color: red;
+  height: 200px;
+  width:100px;
+  margin: 0 0px;
+
+}
